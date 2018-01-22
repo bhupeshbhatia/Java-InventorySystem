@@ -3,6 +3,8 @@ This is an inventory system for keeping track of Smirnoff Vodka. It uses CRUD te
 
 
 Partners: Manprit Dhanoa & Bhupesh Bhatia
+
+
 Data: Keeping track of Smirnoff products
 
 |Field Name	 |	Data Type	|	Description																	    |	Example												|
