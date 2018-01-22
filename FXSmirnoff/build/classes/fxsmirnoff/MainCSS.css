@@ -1,0 +1,202 @@
+.root{
+    -fx-background-color: black;
+}
+
+.button{
+    -fx-text-fill: white;
+    -fx-font: 25 Courier;
+    -fx-background-color: #be171d;
+    -fx-background-insets: 10,1,4,10;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 10px;
+    -fx-border-radius: 9,8,5,4;
+    -fx-padding: 5px;
+}
+
+.button:hover{
+    -fx-background-color: black;
+}
+
+#add{
+    -fx-background-color: black;
+    -fx-padding: 10px;
+}
+
+#add:hover{
+    -fx-background-color: #be171d;
+}
+
+#search{
+    -fx-background-color: black;
+    -fx-padding: 10px;
+}
+
+#search:hover{
+    -fx-background-color: #be171d;
+}
+
+#view{
+    -fx-background-color: black;
+    -fx-padding: 10px;
+}
+
+#view:hover{
+    -fx-background-color: #be171d;
+}
+
+#exit{
+    -fx-background-color: black;
+    -fx-padding: 10px;
+}
+
+#exit:hover{
+    -fx-background-color: #be171d;
+}
+
+#back{
+    -fx-background-color: black;
+    -fx-border-radius: 9,8,5,4;
+    -fx-background-insets: 10,1,4,10;
+}
+
+#back:hover{
+    -fx-border-color: #be171d;
+    -fx-text-fill:  #be171d;
+}
+
+#back2{
+    -fx-background-color: black;
+    -fx-border-radius: 9,8,5,4;
+    -fx-background-insets: 10,1,4,10;
+}
+
+#back2:hover{
+    -fx-border-color: #be171d;
+    -fx-text-fill:  #be171d;
+}
+
+.label{
+    -fx-text-fill: white;
+    -fx-font: 19 Courier;
+    -fx-font-weight: bold;
+}
+
+#searchCount{
+    -fx-font: 35 Courier;
+}
+
+.radio-button{
+    -fx-text-fill: white;
+    -fx-font: 15 Courier;
+    -fx-font-weight: bold;
+    -fx-mark-highlight-color: black;
+    -fx-mark-color: #be171d;
+}
+
+.radio-button:hover{
+    -fx-background-color: #be171d;
+}
+
+.list-cell{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.list-cell:odd{
+    -fx-background-color: black;
+}
+
+.list-cell:even{
+    -fx-background-color: #303030;
+}
+.list-cell:selected{
+    -fx-background-color: #be171d;
+}
+
+.list-cell:hover{
+    -fx-background-color: white;
+    -fx-text-fill: #be171d;
+}
+
+#type .list-cell:selected{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+#type .list-cell:hover{
+    -fx-background-color: #be171d;
+    -fx-text-fill: white;
+}
+
+#field .list-cell:selected{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+#field .list-cell:hover{
+    -fx-background-color: #be171d;
+    -fx-text-fill: white;
+}
+
+.scroll-bar{
+    -fx-background-color: #be171d;
+}
+
+.track{
+    -fx-background-color: #303030;
+}
+
+.thumb{
+    -fx-background-color: black;
+    -fx-background-radius: 10;
+}
+.text-field{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+
+.text-field:hover{
+    -fx-background-color: #be171d;
+    -fx-text-fill: white;
+}
+
+#sTable .table-cell{
+    -fx-border: solid white 5px;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+}
+
+#sTable .table-row-cell:even{
+    -fx-background-color: #303030;
+    -fx-font-weight: bold;
+}
+
+#sTable .table-row-cell:odd{
+    -fx-background-color: black;
+    -fx-font-weight: bold;
+}
+
+#sTable .table-row-cell:selected {
+    -fx-background-color: #be171d;
+}
+
+#sTable .column-header .label{
+    -fx-font-weight: bold;
+    -fx-background-color: #E8E8E8;
+    -fx-text-fill: black;
+}
+
+#sTable .table-row-cell:empty{
+    -fx-background-color: black;
+    -fx-border-color: black;
+}
+
+#sTable .table-row-cell .table-cell:empty{
+    -fx-border-color: black;
+}
+
+
+
+
+
